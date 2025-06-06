@@ -96,7 +96,8 @@
       font-size: 1.2rem;
     }
   
-  }
+}
+
   .section-qualification{
     background-color: #000;
     padding: 60px;
@@ -171,12 +172,10 @@
         font-size: 15px;
         font-weight: 600;
         color: #909090;
-      }
-  }
+    }
+}
 
-
-  
-  .start-btn {
+.start-btn {
     padding: 20px 30px;
     background-color: #fd0011;
     border: none;
@@ -185,10 +184,26 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 40px;
-  
-  }
+
+}
   .start-btn:hover {
     background-color: #0056b3;
   }
 }
 
+.section-contact{
+    background-color: #090909;
+    padding: 60px;
+    min-height: 50vh; // ou o tamanho que quiser
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    gap: 60px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.contact-column {
+    flex: 1; /* Faz com que cada coluna ocupe metade */
+    max-width: 500px;
+ }
