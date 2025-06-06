@@ -1,2 +1,2 @@
-# landingpage-angular
+# landing-page-angular
 Landing Page w/ Angular
